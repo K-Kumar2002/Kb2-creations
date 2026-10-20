@@ -1,4 +1,4 @@
-// Projects and Portfolio Gallery View - A.K. Creation
+// Projects and Portfolio Gallery View - Kb2 Creations
 import { projectCategories, projectsData } from '../data/projects.js';
 import { animateStaggeredCards } from '../animations/motion.js';
 
@@ -51,8 +51,8 @@ export class ProjectsView {
   }
 
   renderProjectCards(category) {
-    const filtered = category === "All" 
-      ? projectsData 
+    const filtered = category === "All"
+      ? projectsData
       : projectsData.filter(p => p.category === category);
 
     if (filtered.length === 0) {

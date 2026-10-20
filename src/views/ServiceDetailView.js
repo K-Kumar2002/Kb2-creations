@@ -1,4 +1,4 @@
-// Individual Service Details View - A.K. Creation
+// Individual Service Details View - Kb2 Creations
 import { servicesData } from '../data/services.js';
 import { aiVideosData } from '../data/aiVideos.js';
 import { initDeviceScene } from '../three/deviceScene.js';

@@ -1,4 +1,4 @@
-// Individual Project Detail View - A.K. Creation
+// Individual Project Detail View - Kb2 Creations
 import { projectsData } from '../data/projects.js';
 
 export class ProjectDetailView {

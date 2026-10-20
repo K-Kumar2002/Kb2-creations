@@ -20,7 +20,7 @@ export class HomeView {
 
     return `
       <!-- 1. CINEMATIC 3D HERO SECTION -->
-      <section class="section section-hero" aria-label="A.K. Creation AI Universe Hero">
+      <section class="section section-hero" aria-label="Kb2 Creations AI Universe Hero">
         <div class="tech-grid-bg"></div>
         <div class="container">
           <div class="hero-layout">
@@ -313,7 +313,7 @@ export class HomeView {
         </div>
       </section>
 
-      <!-- 6. WHY CHOOSE A.K. CREATION (SECTION 12) -->
+      <!-- 6. WHY CHOOSE Kb2 Creations (SECTION 12) -->
       <section class="section" style="background: rgba(11, 18, 32, 0.4); border-block: 1px solid var(--border-subtle);">
         <div class="container">
           <div class="section-header text-center">

@@ -1,4 +1,4 @@
-// Featured Projects & Portfolio Data - A.K. Creation
+// Featured Projects & Portfolio Data - Kb2 Creations
 export const projectCategories = [
   "All",
   "Software & SaaS",

@@ -1,4 +1,4 @@
-// Privacy Policy View - A.K. Creation
+// Privacy Policy View - Kb2 Creations
 
 export class PrivacyView {
   async render() {
@@ -10,7 +10,7 @@ export class PrivacyView {
             <div class="eyebrow">LEGAL & DATA GOVERNANCE</div>
             <h1 class="section-title">PRIVACY POLICY</h1>
             <p class="section-subtitle">
-              Last updated: October 2026. How A.K. Creation protects, handles, and processes your business information.
+              Last updated: October 2026. How Kb2 Creations protects, handles, and processes your business information.
             </p>
           </div>
 
@@ -22,7 +22,7 @@ export class PrivacyView {
 
             <h2 style="font-size: 1.4rem; margin-bottom: 0.75rem; color: #F5F7FC;">2. Use of Telemetry & AI Model Boundaries</h2>
             <p style="color: var(--text-secondary); margin-bottom: 2rem;">
-              A.K. Creation adheres to strict AI data shielding principles. Client proprietary documents, proprietary software repositories, and enterprise data models utilized within our custom AI tools or retrieval-augmented generation (RAG) pipelines are never used to train public foundation models or shared across multi-tenant boundaries without express written consent.
+              Kb2 Creations adheres to strict AI data shielding principles. Client proprietary documents, proprietary software repositories, and enterprise data models utilized within our custom AI tools or retrieval-augmented generation (RAG) pipelines are never used to train public foundation models or shared across multi-tenant boundaries without express written consent.
             </p>
 
             <h2 style="font-size: 1.4rem; margin-bottom: 0.75rem; color: #F5F7FC;">3. Cookies and Local Storage</h2>
@@ -38,7 +38,7 @@ export class PrivacyView {
             <h2 style="font-size: 1.4rem; margin-bottom: 0.75rem; color: #F5F7FC;">5. Contacting Data Governance</h2>
             <p style="color: var(--text-secondary); margin-bottom: 0;">
               If you have inquiries regarding this privacy statement or wish to request data erasure under applicable data privacy frameworks, contact us at 
-              <strong style="color: var(--accent-cyan);">contact@akcreation.dev</strong>.
+              <strong style="color: var(--accent-cyan);">contact@kb2creations.dev</strong>.
             </p>
           </div>
         </div>

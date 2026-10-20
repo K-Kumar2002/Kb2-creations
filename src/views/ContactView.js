@@ -1,4 +1,4 @@
-// Contact & Project Inquiry View - A.K. Creation
+// Contact & Project Inquiry View - Kb2 Creations
 import { servicesData } from '../data/services.js';
 import { getTelUrl, getWhatsAppUrl, contactConfig } from '../data/contactConfig.js';
 import anime from 'animejs';
@@ -110,7 +110,7 @@ export class ContactView {
                   CONFIDENTIALITY & IP COMMITMENT
                 </div>
                 <p style="font-size: 0.9rem; color: var(--text-secondary); line-height: 1.6; margin: 0;">
-                  All project inquiries and proprietary technical architectures shared with A.K. Creation are strictly confidential and protected under standard mutual NDA provisions.
+                  All project inquiries and proprietary technical architectures shared with Kb2 Creations are strictly confidential and protected under standard mutual NDA provisions.
                 </p>
               </div>
             </div>
@@ -173,9 +173,9 @@ export class ContactView {
                   <select id="field-service" name="service" class="form-control" required>
                     <option value="" disabled ${!preselectedService ? 'selected' : ''}>-- Select one of our 12 company services --</option>
                     ${servicesData.map(s => {
-                      const isSel = preselectedService && (preselectedService.toLowerCase() === s.title.toLowerCase() || preselectedService.toLowerCase() === s.id.toLowerCase());
-                      return `<option value="${s.title}" ${isSel ? 'selected' : ''}>Service ${s.number}: ${s.title}</option>`;
-                    }).join('')}
+      const isSel = preselectedService && (preselectedService.toLowerCase() === s.title.toLowerCase() || preselectedService.toLowerCase() === s.id.toLowerCase());
+      return `<option value="${s.title}" ${isSel ? 'selected' : ''}>Service ${s.number}: ${s.title}</option>`;
+    }).join('')}
                     <option value="Multi-Service Combined Engagement">Multi-Service Combined Engagement</option>
                   </select>
                   <span class="form-error-msg" id="err-service"></span>
@@ -224,7 +224,7 @@ export class ContactView {
                 <div class="form-checkbox-wrapper">
                   <input type="checkbox" id="field-consent" name="consent" required>
                   <label for="field-consent" class="form-checkbox-label">
-                    I agree to the processing of my inquiry details in accordance with A.K. Creation’s 
+                    I agree to the processing of my inquiry details in accordance with Kb2 Creations’ 
                     <a href="#/privacy" target="_blank">Privacy Policy</a>. <span class="required">*</span>
                   </label>
                 </div>
@@ -351,7 +351,7 @@ export class ContactView {
 
       // Construct structured WhatsApp message
       const formattedMessage = [
-        `*🚀 NEW PROJECT INQUIRY — A.K. CREATION*`,
+        `*🚀 NEW PROJECT INQUIRY — Kb2 Creations*`,
         `━━━━━━━━━━━━━━━━━━━━━━━`,
         `👤 *Client Name:* ${fullName}`,
         `🏢 *Company:* ${companyName}`,
@@ -365,7 +365,7 @@ export class ContactView {
         `${description}`,
         `━━━━━━━━━━━━━━━━━━━━━━━`,
         `🕒 *Transmitted:* ${new Date().toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric', hour: '2-digit', minute: '2-digit' })}`,
-        `🌐 _Source: akcreation.dev_`
+        `🌐 _Source: kb2creations.dev_`
       ].join('\n');
 
       const waUrl = getWhatsAppUrl(formattedMessage);

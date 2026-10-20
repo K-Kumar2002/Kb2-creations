@@ -1,4 +1,4 @@
-// Motion Engineering with Anime.js - A.K. Creation
+// Motion Engineering with Anime.js - Kb2 Creations
 import anime from 'animejs';
 
 export function isReducedMotion() {

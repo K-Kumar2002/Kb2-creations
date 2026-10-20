@@ -1,4 +1,4 @@
-// Client-side Router with SEO & Lifecycle Control - A.K. Creation
+// Client-side Router with SEO & Lifecycle Control - Kb2 Creations
 export class Router {
   constructor(routes, rootElement) {
     this.routes = routes;
@@ -87,7 +87,9 @@ export class Router {
 
     // Update Document Title & Meta Description for SEO
     if (matchedRoute.title) {
-      document.title = `${matchedRoute.title} | A.K. Creation`;
+      document.title = matchedRoute.title.includes('Kb2 Creations')
+        ? matchedRoute.title
+        : `${matchedRoute.title} | Kb2 Creations`;
     }
     if (matchedRoute.description) {
       const metaDesc = document.querySelector('meta[name="description"]');
@@ -130,7 +132,7 @@ export class Router {
       const href = link.getAttribute('href');
       if (!href) return;
       const linkPath = href.replace('#', '');
-      
+
       if (linkPath === '/' && path === '/') {
         link.classList.add('active');
       } else if (linkPath !== '/' && path.startsWith(linkPath)) {

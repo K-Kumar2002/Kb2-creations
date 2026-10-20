@@ -1,4 +1,4 @@
-// Multi-Column Footer Component - A.K. Creation
+// Multi-Column Footer Component - Kb2 Creations
 import { getTelUrl, getWhatsAppUrl, contactConfig } from '../data/contactConfig.js';
 
 export function renderFooter() {
@@ -11,14 +11,11 @@ export function renderFooter() {
         <div class="footer-top-grid">
           <!-- Col 1: Brand & Identity -->
           <div class="footer-brand">
-            <a href="#/" class="brand-logo" style="margin-bottom: 0.5rem;">
+            <a href="#/" class="brand-logo" style="margin-bottom: 0.5rem;" aria-label="Kb2 Creations Home">
               <div class="brand-icon">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
-                  <polygon points="12,2 22,7 22,17 12,22 2,17 2,7" stroke="#36CFFF" stroke-width="2"/>
-                  <circle cx="12" cy="12" r="3" fill="#FF7A30"/>
-                </svg>
+                <img src="/assets/kb2-logo.png" alt="Kb2 Creations Emblem" class="brand-logo-img" />
               </div>
-              <span class="brand-title">A.K. CREATION</span>
+              <span class="brand-title">Kb2 Creations</span>
             </a>
             <p style="font-family: var(--font-display); font-weight: 600; color: var(--accent-cyan); font-size: 0.92rem; margin-top: 0.25rem;">
               “Technology. Intelligence. Creativity.”
@@ -97,7 +94,7 @@ export function renderFooter() {
 
         <!-- Footer Bottom Bar -->
         <div class="footer-bottom">
-          <p>© ${currentYear} A.K. CREATION. ALL RIGHTS RESERVED.</p>
+          <p>© ${currentYear} Kb2 Creations. ALL RIGHTS RESERVED.</p>
           <div style="display: flex; gap: 1.5rem;">
             <a href="#/privacy" class="footer-link" style="font-size: 0.8rem;">Privacy Policy</a>
             <a href="#/terms" class="footer-link" style="font-size: 0.8rem;">Terms of Service</a>

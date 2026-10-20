@@ -1,4 +1,4 @@
-// 12 Company Services Data - A.K. Creation
+// 12 Company Services Data - Kb2 Creations
 export const servicesData = [
   {
     id: "software-development",

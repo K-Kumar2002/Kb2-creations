@@ -41,13 +41,13 @@ export function initDeviceScene(container, deviceType = 'phone') {
 
   // Bezel & Screen
   const screenGeo = new THREE.PlaneGeometry(bodyWidth * 0.92, bodyHeight * 0.92);
-  
+
   // Create high-res dynamic canvas for realistic phone screen interface
   const screenCanvas = document.createElement('canvas');
   screenCanvas.width = 512;
   screenCanvas.height = 1024;
   const ctx = screenCanvas.getContext('2d');
-  
+
   function drawPhoneUI() {
     // Dark UI background
     ctx.fillStyle = '#070B14';
@@ -62,7 +62,7 @@ export function initDeviceScene(container, deviceType = 'phone') {
     // App Header
     ctx.fillStyle = '#FF7A30';
     ctx.font = 'bold 32px sans-serif';
-    ctx.fillText('A.K. CREATION', 40, 110);
+    ctx.fillText('Kb2 Creations', 40, 110);
     ctx.fillStyle = '#36CFFF';
     ctx.font = '18px monospace';
     ctx.fillText('MOBILE COMPANION OS', 40, 140);

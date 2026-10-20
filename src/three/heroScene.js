@@ -9,7 +9,7 @@ export function initHeroScene(container) {
     container.innerHTML = `
       <div class="webgl-fallback-card">
         <div class="eyebrow" style="margin-bottom: 0.75rem;">SYSTEM VISUALIZATION</div>
-        <h3 style="margin-bottom: 0.5rem; color: #F5F7FC;">A.K. CREATION AI UNIVERSE</h3>
+        <h3 style="margin-bottom: 0.5rem; color: #F5F7FC;">Kb2 Creations AI UNIVERSE</h3>
         <p style="font-size: 0.9rem; max-width: 320px; color: #A4B0C3;">
           Hardware-accelerated 3D core running in static compatibility mode. Explore full software, AI, and creative capabilities below.
         </p>
@@ -39,11 +39,11 @@ export function initHeroScene(container) {
   renderer.setPixelRatio(Math.min(window.devicePixelRatio, isMobile ? 1.5 : 2));
   renderer.toneMapping = THREE.ACESFilmicToneMapping;
   renderer.toneMappingExposure = 1.35;
-  
+
   renderer.domElement.style.width = '100%';
   renderer.domElement.style.height = '100%';
   renderer.domElement.style.display = 'block';
-  
+
   container.innerHTML = '';
   container.appendChild(renderer.domElement);
 
@@ -128,15 +128,15 @@ export function initHeroScene(container) {
   const nodeCount = isMobile ? 28 : 50;
   const nodePositions = [];
   const sphereGeo = new THREE.SphereGeometry(isMobile ? 0.06 : 0.075, 12, 12);
-  const cyanNodeMat = new THREE.MeshStandardMaterial({ 
-    color: 0x36CFFF, 
-    emissive: 0x36CFFF, 
-    emissiveIntensity: 1.0 
+  const cyanNodeMat = new THREE.MeshStandardMaterial({
+    color: 0x36CFFF,
+    emissive: 0x36CFFF,
+    emissiveIntensity: 1.0
   });
-  const orangeNodeMat = new THREE.MeshStandardMaterial({ 
-    color: 0xFF7A30, 
-    emissive: 0xFF7A30, 
-    emissiveIntensity: 1.2 
+  const orangeNodeMat = new THREE.MeshStandardMaterial({
+    color: 0xFF7A30,
+    emissive: 0xFF7A30,
+    emissiveIntensity: 1.2
   });
 
   for (let i = 0; i < nodeCount; i++) {

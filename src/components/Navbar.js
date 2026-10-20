@@ -29,19 +29,13 @@ export function renderNavbar() {
   return `
     <header class="site-header" id="site-header">
       <div class="container header-container">
-        <!-- Brand Wordmark & Geometric Node Logo -->
-        <a href="#/" class="brand-logo" aria-label="A.K. Creation Home">
+        <!-- Brand Wordmark & Official Kb2 Logo -->
+        <a href="#/" class="brand-logo" aria-label="Kb2 Creations Home">
           <div class="brand-icon">
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <polygon points="12,2 22,7 22,17 12,22 2,17 2,7" stroke="#36CFFF" stroke-width="2" fill="none"/>
-              <circle cx="12" cy="12" r="3" fill="#FF7A30"/>
-              <line x1="12" y1="2" x2="12" y2="9" stroke="rgba(245, 247, 252, 0.7)" stroke-width="1.5"/>
-              <line x1="22" y1="17" x2="15" y2="13" stroke="rgba(245, 247, 252, 0.7)" stroke-width="1.5"/>
-              <line x1="2" y1="17" x2="9" y2="13" stroke="rgba(245, 247, 252, 0.7)" stroke-width="1.5"/>
-            </svg>
+            <img src="/assets/kb2-logo.png" alt="Kb2 Creations Emblem" class="brand-logo-img" />
           </div>
           <div class="brand-text">
-            <span class="brand-title">A.K. CREATION</span>
+            <span class="brand-title">Kb2 Creations</span>
             <span class="brand-sub">AI INNOVATION UNIVERSE</span>
           </div>
         </a>
@@ -171,14 +165,11 @@ export function renderNavbar() {
     <!-- Mobile Drawer -->
     <div class="mobile-drawer" id="mobile-drawer" role="dialog" aria-modal="true" aria-label="Mobile Navigation Menu">
       <div class="drawer-header">
-        <a href="#/" class="brand-logo" style="font-size: 1.05rem;">
-          <div class="brand-icon" style="width: 32px; height: 32px;">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
-              <polygon points="12,2 22,7 22,17 12,22 2,17 2,7" stroke="#36CFFF" stroke-width="2"/>
-              <circle cx="12" cy="12" r="3" fill="#FF7A30"/>
-            </svg>
+        <a href="#/" class="brand-logo" style="font-size: 1.05rem;" aria-label="Kb2 Creations Home">
+          <div class="brand-icon" style="width: 34px; height: 34px;">
+            <img src="/assets/kb2-logo.png" alt="Kb2 Creations Emblem" class="brand-logo-img" />
           </div>
-          <span>A.K. CREATION</span>
+          <span>Kb2 Creations</span>
         </a>
         <button class="drawer-close-btn" id="drawer-close-btn" aria-label="Close navigation menu">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -309,7 +300,7 @@ export function initNavbarInteractions() {
   // Mobile services list accordion toggle
   const servicesToggleBtn = document.getElementById('mobile-services-toggle');
   const servicesList = document.getElementById('mobile-services-list');
-  
+
   servicesToggleBtn?.addEventListener('click', (e) => {
     e.stopPropagation();
     const isExpanded = servicesList?.classList.toggle('expanded');
@@ -325,7 +316,7 @@ export function initNavbarInteractions() {
   // Desktop mega dropdown click/touch support
   const dropdownWrapper = document.querySelector('.nav-dropdown-wrapper');
   const dropdownBtn = document.getElementById('desktop-services-dropdown-btn');
-  
+
   if (dropdownBtn && dropdownWrapper) {
     dropdownBtn.addEventListener('click', (e) => {
       e.stopPropagation();

@@ -1,4 +1,4 @@
-// Interactive AI Generated Video Showcase & Cinema Player - A.K. Creation
+// Interactive AI Generated Video Showcase & Cinema Player - Kb2 Creations
 import { aiVideosData } from '../data/aiVideos.js';
 
 export class AIVideoShowcase {
@@ -149,8 +149,8 @@ export class AIVideoShowcase {
   }
 
   renderVideoCards(filter = 'all') {
-    const list = filter === 'all' 
-      ? aiVideosData 
+    const list = filter === 'all'
+      ? aiVideosData
       : aiVideosData.filter(v => v.type === filter);
 
     return list.map(v => `
@@ -235,7 +235,7 @@ export class AIVideoShowcase {
   openTheater(videoId) {
     const video = aiVideosData.find(v => v.id === videoId) || aiVideosData[0];
     this.activeVideo = video;
-    
+
     // Parse duration string to seconds
     const parts = video.duration.split(':');
     this.duration = parseInt(parts[0], 10) * 60 + parseInt(parts[1], 10);

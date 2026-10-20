@@ -392,7 +392,7 @@ export class LabView {
             <span style="width: 10px; height: 10px; border-radius: 50%; background: #27c93f; display: inline-block;"></span>
           </div>
           <span style="font-family: var(--font-mono); font-size: 0.72rem; color: var(--text-muted);">
-            https://akcreation.dev/sample-app
+            https://kb2creations.dev/sample-app
           </span>
           <span class="badge-tag badge-cyan" style="font-size: 0.65rem;">60 FPS</span>
         </div>

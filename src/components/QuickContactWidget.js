@@ -1,4 +1,4 @@
-// Floating Quick Contact Actions (WhatsApp & Call) - A.K. Creation
+// Floating Quick Contact Actions (WhatsApp & Call) - Kb2 Creations
 import { getTelUrl, getWhatsAppUrl, contactConfig } from '../data/contactConfig.js';
 
 export function renderQuickContactWidget() {
@@ -14,7 +14,7 @@ export function renderQuickContactWidget() {
         rel="noopener noreferrer" 
         class="quick-action-btn wa-btn" 
         id="quick-whatsapp-btn"
-        aria-label="Chat on WhatsApp with A.K. Creation"
+        aria-label="Chat on WhatsApp with Kb2 Creations"
       >
         <span class="quick-action-tooltip">Chat on WhatsApp</span>
         <div class="quick-action-icon-box">
@@ -31,7 +31,7 @@ export function renderQuickContactWidget() {
         href="${telUrl}" 
         class="quick-action-btn call-btn" 
         id="quick-call-btn"
-        aria-label="Call A.K. Creation: ${contactConfig.phoneDisplay}"
+        aria-label="Call Kb2 Creations: ${contactConfig.phoneDisplay}"
       >
         <span class="quick-action-tooltip">Call Us Directly</span>
         <div class="quick-action-icon-box">

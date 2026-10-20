@@ -1,15 +1,15 @@
-// Studio Direct Contact Configuration - A.K. Creation
+// Studio Direct Contact Configuration - Kb2 Creations
 export const contactConfig = {
   // Verified studio phone number with +91 country code (India)
   phone: "+919876543210",
   phoneDisplay: "+91 98765 43210",
-  
+
   // WhatsApp direct number (digits only with 91 country code for wa.me)
   whatsappNumber: "919876543210",
   whatsappDisplay: "+91 98765 43210",
-  whatsappDefaultMessage: "Hello A.K. Creation! I would like to discuss a project with your team.",
+  whatsappDefaultMessage: "Hello Kb2 Creations! I would like to discuss a project with your team.",
 
-  email: "contact@akcreation.dev"
+  email: "contact@kb2creations.dev"
 };
 
 export function getTelUrl() {

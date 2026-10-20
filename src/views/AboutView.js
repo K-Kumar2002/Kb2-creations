@@ -10,16 +10,21 @@ export class AboutView {
 
   async render() {
     return `
-      <section class="section service-detail-hero" aria-label="About A.K. Creation" style="position: relative; overflow: hidden;">
+      <section class="section service-detail-hero" aria-label="About Kb2 Creations" style="position: relative; overflow: hidden;">
         <!-- Three.js Ambient Geometric Backdrop -->
         <div id="about-three-backdrop" style="position: absolute; inset: 0; pointer-events: none; z-index: 0; opacity: 0.65;"></div>
 
         <div class="container" style="position: relative; z-index: 1;">
           <div class="section-header text-center" style="max-width: 860px; margin-inline: auto;">
+            <div style="display: flex; justify-content: center; margin-bottom: 1.5rem;">
+              <div style="width: 84px; height: 84px; border-radius: 20px; overflow: hidden; border: 2px solid rgba(212, 175, 55, 0.5); box-shadow: 0 0 30px rgba(212, 175, 55, 0.35); background: #0A0E17;">
+                <img src="/assets/kb2-logo.png" alt="Kb2 Creations Official Emblem" style="width: 100%; height: 100%; object-fit: cover; display: block;" />
+              </div>
+            </div>
             <div class="eyebrow">STUDIO IDENTITY & PHILOSOPHY</div>
             <h1 class="section-title">WHERE TECHNOLOGY MEETS CREATIVITY.</h1>
             <p class="lead" style="color: var(--text-primary); font-size: 1.25rem; line-height: 1.7; margin-top: 1.25rem;">
-              A.K. Creation combines software engineering, artificial intelligence, digital experiences, marketing, and creative production to help transform ideas into practical digital solutions.
+              Kb2 Creations combines software engineering, artificial intelligence, digital experiences, marketing, and creative production to help transform ideas into practical digital solutions.
             </p>
           </div>
 

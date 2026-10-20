@@ -1,4 +1,4 @@
-// AI Generated Videos Data - A.K. Creation Creative AI Production
+// AI Generated Videos Data - Kb2 Creations Creative AI Production
 export const aiVideosData = [
   {
     id: "cyberion-hypercar",

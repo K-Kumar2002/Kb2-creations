@@ -1,4 +1,4 @@
-// Our Working Process Data - A.K. Creation
+// Our Working Process Data - Kb2 Creations
 export const processStages = [
   {
     step: "01",

@@ -1,4 +1,4 @@
-// Three.js Utility & Lifecycle Helpers - A.K. Creation
+// Three.js Utility & Lifecycle Helpers - Kb2 Creations
 import * as THREE from 'three';
 
 export function isWebGLAvailable() {

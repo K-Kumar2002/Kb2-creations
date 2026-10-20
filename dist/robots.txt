@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://akcreation.dev/sitemap.xml
+Sitemap: https://kb2creations.dev/sitemap.xml

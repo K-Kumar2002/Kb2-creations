@@ -1,4 +1,4 @@
-// Main Application Entrypoint - A.K. Creation
+// Main Application Entrypoint - Kb2 Creations
 import './styles/main.css';
 import './styles/components.css';
 import './styles/pages.css';
@@ -26,8 +26,8 @@ const routes = [
   {
     path: '/',
     view: HomeView,
-    title: 'A.K. CREATION — AI Innovation Universe',
-    description: 'A.K. Creation is a premier innovation studio specializing in custom software, AI tools, websites, Android apps, digital marketing, AI video ads, and creative production.'
+    title: 'Kb2 Creations — AI Innovation Universe',
+    description: 'Kb2 Creations is a premier innovation studio specializing in custom software, AI tools, websites, Android apps, digital marketing, AI video ads, and creative production.'
   },
   {
     path: '/services',
@@ -39,7 +39,7 @@ const routes = [
     path: '/services/:id',
     view: ServiceDetailView,
     title: 'Service Specification',
-    description: 'In-depth architectural overview, key deliverables, technologies, and execution blueprints for A.K. Creation capabilities.'
+    description: 'In-depth architectural overview, key deliverables, technologies, and execution blueprints for Kb2 Creations capabilities.'
   },
   {
     path: '/lab',
@@ -62,7 +62,7 @@ const routes = [
   {
     path: '/about',
     view: AboutView,
-    title: 'About A.K. Creation — Where Technology Meets Creativity',
+    title: 'About Kb2 Creations — Where Technology Meets Creativity',
     description: 'Learn about our engineering philosophy, multidisciplinary craftsmanship, and approach to transforming ambitious ideas into digital solutions.'
   },
   {
@@ -75,7 +75,7 @@ const routes = [
     path: '/contact',
     view: ContactView,
     title: 'Contact Studio & Start a Project',
-    description: 'Transmitting your project requirements to A.K. Creation. Discovery consultations available for enterprise and startup teams.'
+    description: 'Transmitting your project requirements to Kb2 Creations. Discovery consultations available for enterprise and startup teams.'
   },
   {
     path: '/privacy',
