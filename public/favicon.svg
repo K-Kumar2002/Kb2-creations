@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <defs>
+    <linearGradient id="akGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF7A30"/>
+      <stop offset="50%" stop-color="#806BFF"/>
+      <stop offset="100%" stop-color="#36CFFF"/>
+    </linearGradient>
+  </defs>
+  <rect width="100" height="100" rx="20" fill="#070B14"/>
+  <rect x="2" y="2" width="96" height="96" rx="18" stroke="rgba(148, 163, 184, 0.2)" stroke-width="2"/>
+  <!-- Geometric AI Core Icon -->
+  <polygon points="50,18 82,36 82,72 50,90 18,72 18,36" stroke="url(#akGrad)" stroke-width="3" fill="none"/>
+  <polygon points="50,28 72,41 72,67 50,80 28,67 28,41" stroke="#36CFFF" stroke-width="1.5" stroke-dasharray="3,3" fill="none"/>
+  <!-- Central Connected Nodes -->
+  <circle cx="50" cy="54" r="7" fill="#FF7A30"/>
+  <circle cx="36" cy="46" r="3.5" fill="#36CFFF"/>
+  <circle cx="64" cy="46" r="3.5" fill="#806BFF"/>
+  <circle cx="50" cy="70" r="3.5" fill="#36CFFF"/>
+  <line x1="50" y1="54" x2="36" y2="46" stroke="rgba(245, 247, 252, 0.6)" stroke-width="1.5"/>
+  <line x1="50" y1="54" x2="64" y2="46" stroke="rgba(245, 247, 252, 0.6)" stroke-width="1.5"/>
+  <line x1="50" y1="54" x2="50" y2="70" stroke="rgba(245, 247, 252, 0.6)" stroke-width="1.5"/>
+</svg>

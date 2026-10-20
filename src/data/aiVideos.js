@@ -1,0 +1,67 @@
+// AI Generated Videos Data - A.K. Creation Creative AI Production
+export const aiVideosData = [
+  {
+    id: "cyberion-hypercar",
+    title: "CYBERION X — Autonomous Hypercar Commercial",
+    category: "AI Video Advertisement",
+    type: "commercial",
+    aspectRatio: "16:9",
+    duration: "0:42",
+    poster: "/assets/services/ai-video-ads.jpg",
+    client: "Cyberion Automotive Systems",
+    resolution: "4K UHD 3840×2160 (60 FPS)",
+    engine: "Runway Gen-3 Alpha + ComfyUI Latent Upscale",
+    soundDesign: "Custom Neural Foley & Sub-bass Synth",
+    promptSummary: "Photorealistic 35mm anamorphic commercial shoot of futuristic dark titanium hypercar on wet studio turntable, laser cage volumetric light bars, steam fog, cinematic slow-motion pan, 8K, cinematic color grading.",
+    stats: { views: "284K", retention: "91.2%", ctr: "6.4%" },
+    description: "Full AI-generated television commercial concept highlighting aerodynamic contours, illuminated cybernetic front fascia, and high-speed motion tracking."
+  },
+  {
+    id: "tokyo-glitch-reel",
+    title: "TOKYO GLITCH — Cyberpunk Urban Motion",
+    category: "Viral AI Reel",
+    type: "reel",
+    aspectRatio: "9:16",
+    duration: "0:28",
+    poster: "/assets/services/ai-reels.jpg",
+    client: "Neo-Streetwear Label",
+    resolution: "FHD Vertical 1080×1920 (60 FPS)",
+    engine: "Stable Video Diffusion XL + Warp Motion",
+    soundDesign: "Trap Cyberpunk Bass & Kinetic Sound FX",
+    promptSummary: "Vertical 9:16 social reel, model in metallic foil reflective puffer jacket walking down rainy neon Shibuya alley, dynamic glitch zooms, kinetic typography overlays, hyper-saturated cyan and magenta lighting.",
+    stats: { views: "1.2M", retention: "94.6%", shares: "42K" },
+    description: "High-retention vertical short crafted for TikTok and Instagram Reels featuring beat-synced optical flow transitions and automated kinetic captions."
+  },
+  {
+    id: "neo-kyoto-film",
+    title: "NEO-KYOTO 2088 — The Dragon Awakens",
+    category: "Cinematic AI Film",
+    type: "movie",
+    aspectRatio: "21:9",
+    duration: "1:18",
+    poster: "/assets/services/ai-movies.jpg",
+    client: "Horizon Sci-Fi Anthology",
+    resolution: "Cinemascope 3840×1600 (24 FPS)",
+    engine: "Midjourney v6 + Kling AI Camera Rig + DaVinci Resolve ACES",
+    soundDesign: "Orchestral Hybrid Cinema Score (5.1 Spatial)",
+    promptSummary: "Cinematic sci-fi film sequence, sprawling cyberpunk skyline at dusk, giant holographic cyan dragon coiling around neon glass skyscrapers, aerial police cruisers darting through volumetric clouds, anamorphic lens flares.",
+    stats: { views: "410K", festival: "AI Film Fest Selection", rating: "9.8/10" },
+    description: "Anamorphic cinematic narrative exploring human-AI symbiosis in a futuristic metropolis, demonstrating character consistency and cinematic multi-shot continuity."
+  },
+  {
+    id: "aura-harmonics-music",
+    title: "AURA HARMONICS — Neural Audio Spectrum",
+    category: "AI Music & Audio Experience",
+    type: "music",
+    aspectRatio: "16:9",
+    duration: "0:54",
+    poster: "/assets/services/ai-music.jpg",
+    client: "Synthetix Soundworks",
+    resolution: "4K UHD 3840×2160 (60 FPS)",
+    engine: "Suno AI v3 + TouchDesigner Frequency Mapper",
+    soundDesign: "Bespoke Electronic Ambient Vocal Stems",
+    promptSummary: "Futuristic music studio holographic equalizer stems, glowing cyan and violet audio frequencies oscillating to heavy bass, cybernetic sound technician tweaking audio filters, volumetric studio backlighting.",
+    stats: { streams: "190K+", completion: "88.2%", bpm: "128 BPM" },
+    description: "AI-generated melodic electronic composition combined with real-time audio-reactive 3D frequency visualization and mastering."
+  }
+];
